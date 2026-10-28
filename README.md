@@ -46,3 +46,9 @@ This project demonstrates outlier detection, IQR-based capping, distribution ana
 
 ### Dataset Note
 The dataset is synthetically generated for educational purposes. It is not real student data, and the findings should not be treated as evidence about actual students.
+
+![Student score boxplot](boxplot.png)
+
+![Exam score distributions](distribution_plot.png)
+
+![Feature correlation heatmap](heatmap.png)
