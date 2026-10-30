@@ -26,6 +26,7 @@ To analyze student exam scores, identify potential outliers, explore score distr
 - The boxplots summarize score medians, quartiles, and potential outliers.
 - Extreme values are identified using the 1.5 × IQR rule.
 - Capping limits the influence of extreme scores while retaining student records.
+- ![Student score boxplot](boxplot.png)
 
 ### Visual 2: Distribution Plot
 **File:** `distribution_plot.png`
@@ -33,6 +34,7 @@ To analyze student exam scores, identify potential outliers, explore score distr
 - Histograms and KDE curves show how exam scores are distributed.
 - Comparing subjects helps reveal differences in score concentration and spread.
 - The study-hour breakdown illustrates how score distributions can be compared across groups.
+  ![Exam score distributions](distribution_plot.png)
 
 ### Visual 3: Correlation Heatmap
 **File:** `heatmap.png`
@@ -40,6 +42,7 @@ To analyze student exam scores, identify potential outliers, explore score distr
 - The annotated heatmap displays linear correlation coefficients between numerical features.
 - The strongest positive associations can be identified by examining study variables against exam scores.
 - Correlation describes association and does not establish causation.
+  ![Feature correlation heatmap](heatmap.png)
 
 ### Conclusion
 This project demonstrates outlier detection, IQR-based capping, distribution analysis, and correlation visualization using Python. The results illustrate how visual analytics can help explore data quality and potential relationships in student performance data.
@@ -47,8 +50,8 @@ This project demonstrates outlier detection, IQR-based capping, distribution ana
 ### Dataset Note
 The dataset is synthetically generated for educational purposes. It is not real student data, and the findings should not be treated as evidence about actual students.
 
-![Student score boxplot](boxplot.png)
 
-![Exam score distributions](distribution_plot.png)
 
-![Feature correlation heatmap](heatmap.png)
+
+
+
